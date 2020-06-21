@@ -92,8 +92,8 @@ def write_task(dst_path: PathType, task_name: str, samples: List[Sample]) -> Non
 
 
 def main() -> None:
-    src = Path(r'C:\Users\dana\Documents\Idos\IBM_OCR\DetectionData')
-    dst = Path(r'C:\Users\dana\Documents\Idos\IBM_OCR\Converted')
+    src = Path(r'/mnt/data/idan/DetectionData')
+    dst = Path(r'/mnt/data/idan')
     convert(src, dst)
 
 
